@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+const API = "https://api.salespunch360.com";
 
 export default function App() {
   const [page, setPage] = useState("home");
