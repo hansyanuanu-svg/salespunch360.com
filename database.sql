@@ -1,9 +1,0 @@
-CREATE DATABASE salespunch360;
-
-USE salespunch360;
-
-CREATE TABLE users (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(100),
-  role VARCHAR(50)
-);
